@@ -1,0 +1,22 @@
+{
+  "Failed_RegisterUT": "Schon benutzt.",
+  "Failed_RegisterUM": "Bitte stelle sicher das dein Benutzername wenigstens 5 Buchstaben lang ist.",
+  "Failed_LoginEU": "Dieser Benutzer ist nicht registiert.",
+  "Failed_LoginRU": "Bitte geben sie ein Benutzername ein!",
+  "Failed_LoginRP": "Bitte geben sie ein Passwort ein!",
+  "Home_Message": "Verdammt, bist du schlecht ;-<",
+  "NotLI": "Du bist nicht eingeloggt.",
+  "AHI": "und Hallo {username}",
+  "Uploadedby": "Hochgeladen von {channel}",
+  "InvalidVT": "Video nicht verfügbar",
+  "InvalidVD": "Wir haben automatisch das Video entfernt.",
+  "AEVU": "Dieses Video ist schon in unserer Datenbank.",
+  "AEVR": "Bitte geben sie eine ID ein.",
+  "AEVE": "Dieses Video existiert nicht auf YouTube.",
+  "AEVN": "Dieses Video ist nicht Nightcore basiert.",
+  "AEVH": "Bitte stellen sie sicher das das Video kein Mix, Livestream oder Top-liste ist.",
+  "ASV": "Video erfolgreich hinzugefügt.",
+  "APT": "Video hinzufügen",
+  "APB": "Hinzufügen",
+  "APH": "Ein Video hinzufügen"
+}

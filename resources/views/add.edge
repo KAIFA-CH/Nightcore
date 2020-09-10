@@ -1,0 +1,27 @@
+@layout('partials/body')
+@section('container')
+<div style="margin: auto;width: 60%;">
+  <br>
+@if(flashMessage('vid'))
+  <div class="alert alert-success"><span>{{ flashMessage('vid') }}</span></div>
+@endif
+{{ elIf('<div class="alert alert-danger"><span>$self</span></div>', getErrorFor('vid'), hasErrorFor('vid')) }}
+<br>
+<div class="card">
+<div class="card-body">
+<h1 class="text-center display-4">{{ antl.forLocale(currentLocale).formatMessage('messages.APT') }}</h1>
+<br>
+<hr>
+<br>
+<form method="POST" action="/add">
+<div class="form-group">
+
+  <input class="form-control" type="text" name="vid" id="vid" placeholder="Video ID ( 87ktPw9dAOE )">
+</div>
+  {{ csrfField() }}
+<button type="submit" class="btn btn-primary center">{{ antl.forLocale(currentLocale).formatMessage('messages.APB') }}</button>
+</form>
+</div>
+</div>
+</div>
+@endsection

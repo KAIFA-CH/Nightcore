@@ -1,0 +1,33 @@
+@layout('partials/body')
+@section('container')
+  <br>
+  <br>
+  <br>
+<div class="row">
+@each(video in videos)
+  @if(!video.vid)
+    <div class="col-sm-4" style="padding-bottom: 5%">
+      <div class="card">
+          <img src="missing.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">{{ antl.forLocale(currentLocale).formatMessage('messages.InvalidVT') }}</h5>
+            <p class="card-text">{{ antl.forLocale(currentLocale).formatMessage('messages.InvalidVD') }}</p>
+          </div>
+      </div>
+    </div>
+  @else
+  <div class="col-sm-4" style="padding-bottom: 5%">
+    <div class="card">
+      <a href="{{ route('Watch', { id: video.vid }) }}" class="text-decoration-none text-reset">
+      <img src="https://img.youtube.com/vi/{{ video.vid }}/mqdefault.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{ video.title }}</h5>
+        <p class="card-text">{{ antl.forLocale(currentLocale).formatMessage('messages.Uploadedby', { channel: video.artist }) }}</p>
+      </div>
+      </a>
+    </div>
+  </div>
+  @endif
+@endeach
+</div>
+@endsection

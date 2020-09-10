@@ -1,0 +1,17 @@
+@layout('partials/body')
+@section('container')
+  <br>
+  <div class="card">
+    <div class="card-body">
+      <h6 class="text-center display-4">{{ video.title }}</h6>
+      <br>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="763" height="450" src="https://www.youtube.com/embed/{{ video.vid }}?autoplay=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+      </div>
+      <hr>
+      <h4>Information:</h4>
+      <h5>{{ antl.forLocale(currentLocale).formatMessage('messages.Uploadedby', { channel: video.artist }) }}</h5>
+    </div>
+  </div>
+  <br>
+@endsection

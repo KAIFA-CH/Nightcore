@@ -1,0 +1,22 @@
+{
+  "Failed_RegisterUT": "Already taken.",
+  "Failed_RegisterUM": "Please make sure your username has atleast 5 characters.",
+  "Failed_LoginEU": "Your username is incorrect.",
+  "Failed_LoginRU": "Please enter a username!",
+  "Failed_LoginRP": "Please enter a password!",
+  "Home_Message": "damn you fucking suck ;-<",
+  "NotLI": "You're not logged in.",
+  "AHI": "also hi {username}",
+  "Uploadedby": "Geüpload door {channel}",
+  "InvalidVT": "Video niet beschikbaar",
+  "InvalidVD": "We hebben deze video automatisch verwijderd.",
+  "AEVU": "Deze video staat al in onze database.",
+  "AEVR": "Je hebt het veld niet ingevuld.",
+  "AEVE": "Deze video bestaat niet op Youtube.",
+  "AEVN": "Deze video lijkt niet gebaseerd op nightcore.",
+  "AEVH": "Zorg ervoor dat de video geen Toplijst, Urenlang of een Livestream is.",
+  "ASV": "Video is met succes toegevoegd.",
+  "APT": "Video toevoegen",
+  "APB": "Voeg toe",
+  "APH": "Een video toevoegen"
+}

@@ -1,0 +1,22 @@
+{
+  "Failed_RegisterUT": "Already taken.",
+  "Failed_RegisterUM": "Please make sure your username has atleast 5 characters.",
+  "Failed_LoginEU": "Your username is incorrect.",
+  "Failed_LoginRU": "Please enter a username!",
+  "Failed_LoginRP": "Please enter a password!",
+  "Home_Message": "damn you fucking suck ;-<",
+  "NotLI": "You're not logged in.",
+  "AHI": "also hi {username}",
+  "Uploadedby": "Uploaded by {channel}",
+  "InvalidVT": "Video unavailable",
+  "InvalidVD": "We have automatically removed this video.",
+  "AEVU": "This Video is already in our Database",
+  "AEVR": "You have not filled in the field.",
+  "AEVE": "This Video doesn´t exist on Youtube.",
+  "AEVN": "This Video doesn´t seem to be nightcore based.",
+  "AEVH": "Please make sure the video isn´t a Top list, Hours long or a Livestream.",
+  "ASV": "Video has been successfully added.",
+  "APT": "Add Video",
+  "APB": "Add",
+  "APH": "Add a Video"
+}

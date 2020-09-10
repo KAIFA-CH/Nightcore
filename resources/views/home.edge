@@ -1,0 +1,5 @@
+@layout('partials/body')
+@section('container')
+<h1>{{ message }}<br>{{ antl.forLocale(currentLocale).formatMessage('messages.AHI', { username: auth.user.username }) }}</h1>
+@endsection
+
