@@ -1,3 +1,6 @@
+# This is abandonware feel free to use this in anyway you want.
+
+
 # Nightcore AdonisJS DB site
 ##### Created by Mar0xy - Published via MXY Group
 
